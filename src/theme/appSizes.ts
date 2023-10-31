@@ -1,0 +1,24 @@
+enum AppSizes {
+  M = 5,
+  MM = 10,
+  L = 30,
+  XXL = 50,
+  SMALL = 15,
+  MIDDLE = 40,
+  LARGE = 45,
+  PADDING_SMALL = 12,
+  PADDING_HORIZONTAL = SMALL,
+
+  MARGIN_SMALL = 8,
+  MARGIN = SMALL,
+  MARGIN_XS = 20,
+  MARGIN_XL = 25,
+
+  RADIUS_SMALL = 6,
+  RADIUS = L,
+  RADIUS_LARGE = MIDDLE,
+
+  MIN_INPUT_HEIGHT = MIDDLE,
+}
+
+export default AppSizes;
